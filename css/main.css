@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #FFF1CC;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+.header .nav__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #232529;
+}
+.header .nav .nav-menu {
+  display: flex;
+}
+.header .nav .nav-menu__item {
+  list-style-type: none;
+}
+.header .nav .nav-menu__item__link {
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+.header .nav .nav__sign {
+  display: flex;
+  gap: 1rem;
+}/*# sourceMappingURL=main.css.map */

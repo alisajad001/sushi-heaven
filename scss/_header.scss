@@ -1,0 +1,43 @@
+.header {
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+
+        &__logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .nav-menu {
+            display: flex;
+
+            &__item {
+                list-style-type: none;
+
+                &__link {
+                    padding: 0 1rem;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .nav__sign {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
+    .header-bottom {
+
+        &__left {
+    
+            &__title {
+                font-size: 6rem;
+            } 
+        }  
+    } 
+}
