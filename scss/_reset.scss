@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: 85rem;
+    max-width: 80rem;
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -49,4 +49,19 @@ body {
 
 .secondary-btn {
     background-color: $secondary-color;
+}
+
+// Animations
+.anim-rotate {
+    animation: rotate 7s ease-in-out infinite;
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
 }
